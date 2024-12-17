@@ -1,0 +1,21 @@
+[package]
+name = "drt-vm-executor-c-api"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+drt-vm-executor-rs-0.1.0 = { path = "../vm-executor" }
+drt-vm-executor-wasmer = { path = "../vm-executor-wasmer" }
+
+lazy_static = "1.4"
+libc = { version = "^0.2", default-features = false }
+
+env_logger = "0.8.4"
+log = "0.4.14"
+
+[build-dependencies]
+cbindgen = "0.9"
