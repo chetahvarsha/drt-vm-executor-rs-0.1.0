@@ -7,17 +7,17 @@ publish = false # will also be published, but it is not yet ready for that
 [lib]
 
 [dependencies]
-drt-vm-executor-rs-0.1.0 = { path = "../vm-executor" }
+drt-vm-executor = { path = "../vm-executor" }
 
-wasmer = { git = "https://github.com/dharitri/wasmer", rev = "cdd1550", default-features = false, features = [
+wasmer = { git = "https://github.com/DharitriOne/wasmer", rev = "3d8d4eb", default-features = false, features = [
     "singlepass",
     "sys",
     "universal",
     "wat",
 ] }
 
-wasmer-vm = { git = "https://github.com/dharitri/wasmer", rev = "cdd1550" }
-wasmer-types = { git = "https://github.com/dharitri/wasmer", rev = "cdd1550" }
+wasmer-vm = { git = "https://github.com/DharitriOne/wasmer", rev = "3d8d4eb" }
+wasmer-types = { git = "https://github.com/DharitriOne/wasmer", rev = "3d8d4eb" }
 
 chrono = "0.4.23"
 log = "0.4.17"

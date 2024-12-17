@@ -3,12 +3,10 @@ name = "drt-vm-executor"
 version = "0.1.0"
 edition = "2021"
 
-authors = [
-    Sumanth <saisumanthvadla@gmail.com>
-]
+authors = ["Sumanth <saisumanthvadla@gmail.com>"]
 license = "GPL-3.0-only"
 readme = "README.md"
-repository = ""
+repository = "https://github.com/chetahvarsha/drt-vm-executor-rs-0.1.0"
 homepage = "https://dharitri.com/"
 documentation = "https://docs.dharitri.com/"
 description = "Dharitri VM executor interface"
